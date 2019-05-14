@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="dialog.css">
+  <script src="dialog.js"></script>
+</head>
+<body>
+<div id="dialogoverlay"></div>
+<div id="dialogbox">
+  <div>
+    <div id="dialogboxhead"></div>
+    <div id="dialogboxbody"></div>
+    <div id="dialogboxfoot"></div>
+  </div>
+</div>
+
+<button onclick="Confirm.render('Delete Post?', 'post_1')">Click me</button>
+<button onclick="Confirm.render('Are you sure you want to continue?', 'post_2')">Click me</button>
+
+<p id="post_1"></p>
+<p id="post_2"></p>
+</body>
+</html>
